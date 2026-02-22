@@ -273,26 +273,10 @@
             animation: message-glow 4s ease-in-out infinite alternate;
         }
 
-        .our-music {
-            position: relative;
-            width: 100%;
-            max-width: 360px; /* Limite máximo para manter proporção */
-            margin: 10px auto; /* Centraliza o contêiner */
-            overflow: hidden;
-            border-radius: 25px;
-             transform: translateY(-5px) scale(1.01);
-            box-shadow: 
-                0 30px 80px rgba(255, 255, 255, 0.9),
-                inset 0 1px 0 rgba(255, 0, 64, 0.4),
-                0 0 60px rgba(255, 0, 64, 0.25),
-                inset 0 -1px 0 rgba(255, 255, 255, 0.1);
-            border-color: rgba(255, 0, 64, 0.6);
-        }
-        
         .our-music h3 {
             font-size: 1.8rem;
             text-align: center;
-            margin-top: 30px;
+            padding-top: 10px;
             margin-bottom: 10px;
             font-weight: 700;
             background: linear-gradient(45deg, var(--white), var(--silver), var(--deep-red));
@@ -301,6 +285,26 @@
             background-clip: text;
             margin-bottom: 40px;
             animation: message-glow 4s ease-in-out infinite alternate;
+            
+        }
+
+        .our-music video {
+            position: relative;
+            width: 100%;
+            max-width: 360px; /* Limite máximo para manter proporção */
+            margin: 10px auto; /* Centraliza o contêiner */
+            overflow: hidden;
+        }
+
+        .our-music {
+            border-radius: 25px;
+             transform: translateY(-5px) scale(1.01);
+            box-shadow: 
+                0 30px 80px rgba(255, 255, 255, 0.9),
+                inset 0 1px 0 rgba(255, 0, 64, 0.4),
+                0 0 60px rgba(255, 0, 64, 0.25),
+                inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 0, 64, 0.6);
         }
         
         @keyframes message-glow {
@@ -1430,6 +1434,7 @@ Como diz em Mateus 18:19-20: 'Pois, onde dois ou três se reúnem em meu nome, e
 </body>
 
 </html>
+
 
 
 
