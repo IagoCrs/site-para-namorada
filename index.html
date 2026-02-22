@@ -273,8 +273,19 @@
             animation: message-glow 4s ease-in-out infinite alternate;
         }
 
+        .our-music {
+            position: relative;
+            width: 100%;
+            max-width: 560px; /* Limite máximo para manter proporção */
+            margin: 0 auto; /* Centraliza o contêiner */
+            padding-bottom: 56.25%; /* Proporção 16:9 */
+            overflow: hidden;
+        }
+        
         .our-music h3 {
             font-size: 3.2rem;
+            text-align: center;
+            margin-bottom: 10px;
             font-weight: 700;
             background: linear-gradient(45deg, var(--white), var(--silver), var(--deep-red));
             -webkit-background-clip: text;
@@ -1411,4 +1422,5 @@ Como diz em Mateus 18:19-20: 'Pois, onde dois ou três se reúnem em meu nome, e
 </body>
 
 </html>
+
 
