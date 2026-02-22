@@ -273,6 +273,17 @@
             animation: message-glow 4s ease-in-out infinite alternate;
         }
 
+        .our-music h3 {
+            font-size: 3.2rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, var(--white), var(--silver), var(--deep-red));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 40px;
+            animation: title-shine 2s ease-in-out infinite;
+        }
+        
         @keyframes message-glow {
             0% { text-shadow: 0 0 10px rgba(192, 192, 192, 0.3); }
             100% { text-shadow: 0 0 20px rgba(192, 192, 192, 0.6), 0 0 30px rgba(255, 0, 64, 0.2); }
@@ -746,8 +757,13 @@ Como diz em Mateus 18:19-20: 'Pois, onde dois ou três se reúnem em meu nome, e
                 <br>
                 <p>Obrigado(a) por ser minha companheira de sonhos, minha parceira de vida, minha melhor amiga e meu grande amor. Quero que saiba: você é tudo que sempre sonhei e muito mais! 💝</p>
             </div>
-        </main>
 
+        <div class="our-music">
+                <h3>🤍 A música de nosso Amor 🤍</h3>
+                <video width="560" height="315" controls> <source src="vid/Cheiro de Mar.mp4" type="video/mp4"></video>
+            </div>       
+        </main>
+        
         <section class="photo-gallery">
             <div class="photo-frame">
                 <img src="img/1.jpeg" alt="Nossa primeira foto juntos" onerror="this.style.display='none'; this.parentNode.innerHTML='📸<br><small>Foto 1</small>';">
@@ -1395,3 +1411,4 @@ Como diz em Mateus 18:19-20: 'Pois, onde dois ou três se reúnem em meu nome, e
 </body>
 
 </html>
+
